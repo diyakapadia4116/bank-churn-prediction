@@ -1,0 +1,90 @@
+{
+  "best_model_name": "Gradient Boosting",
+  "feature_columns": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "ZeroBalanceFlag"
+  ],
+  "categorical_features": [
+    "Geography",
+    "Gender"
+  ],
+  "numeric_features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "ZeroBalanceFlag"
+  ],
+  "engineered_features": [
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "ZeroBalanceFlag"
+  ],
+  "test_metrics": {
+    "Model": "Gradient Boosting",
+    "Accuracy": 0.868,
+    "Precision": 0.7739463601532567,
+    "Recall": 0.4963144963144963,
+    "F1-Score": 0.6047904191616766,
+    "ROC-AUC": 0.8682850801494868
+  },
+  "overall_churn_rate": 0.2037,
+  "geography_options": [
+    "France",
+    "Germany",
+    "Spain"
+  ],
+  "gender_options": [
+    "Female",
+    "Male"
+  ],
+  "feature_ranges": {
+    "CreditScore": [
+      350,
+      850
+    ],
+    "Age": [
+      18,
+      92
+    ],
+    "Tenure": [
+      0,
+      10
+    ],
+    "Balance": [
+      0.0,
+      250898.09
+    ],
+    "NumOfProducts": [
+      1,
+      4
+    ],
+    "EstimatedSalary": [
+      11.58,
+      199992.48
+    ]
+  }
+}

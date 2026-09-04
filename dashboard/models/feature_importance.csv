@@ -1,0 +1,17 @@
+feature,importance
+num__Age,0.36757840473021747
+num__NumOfProducts,0.2649178432291165
+num__Balance,0.06961965437251331
+num__IsActiveMember,0.06423923923530914
+num__EngagementProductInteraction,0.06213536713082251
+cat__Geography_Germany,0.054236107817837935
+num__BalanceSalaryRatio,0.030149552202026027
+num__EstimatedSalary,0.025808222579914684
+num__CreditScore,0.022702354303589096
+num__AgeTenureInteraction,0.015472139794438573
+cat__Gender_Male,0.012896467761414003
+num__ProductDensity,0.0065134037424406255
+num__HasCrCard,0.0011342452766492902
+num__Tenure,0.0009448482542467734
+num__ZeroBalanceFlag,0.0008413866271571041
+cat__Geography_Spain,0.0008107629423068817
